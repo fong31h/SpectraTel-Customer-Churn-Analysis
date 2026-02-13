@@ -8,3 +8,4 @@ Vodafone is a mid-level telecommunications company dealing with high levels of c
 Analyzing customer information data as well as product trends have provided several key insights into the problems facing Vodafone as well as
 possible solutions.
 
+Jump straight to the Tableau dashboard [https://public.tableau.com/app/profile/spencer.fong/viz/CustomerChurnDashboard_17709383823040/Dashboard1?publish=yes&showOnboarding=true]
