@@ -14,4 +14,4 @@ For my SQL code, click [here](google.com)
 
 # Data Explanation
 
-![Data Structure](/assets/images/data_structure.png)
+![Data Structure](/assets/data_structure.png)
