@@ -44,11 +44,11 @@ The first chart shows the estimated difference in customers lost during the firs
 
 As shown, nearly 500 customers are lost over the average during the first year. This is a very high rate that needs to be addressed.
 
-The second chart shows the estimated revenue loss over the first year.
+The second chart shows the estimated revenue loss over the first year, separated by contract type.
 
 <img src="/assets/Revenue-loss.png" width="250">
 
-This chart quantifies even further the cost of sustaining such a high churn rate in the first year. Revenue losses exceed $3.5 million from lost customers.
+This chart quantifies even further the cost of sustaining such a high churn rate in the first year. Revenue losses when added up exceed $3.5 million from lost customers.
 
 Ulimately, the analysis comes away with two suggestions: 
 
