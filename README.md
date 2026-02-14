@@ -32,7 +32,7 @@ As shown, Month-to-Month contracts suffer from significantly higher churn rates 
 
 The second insight that was discovered is the extremely high churn rates of contracts within their first year.
 
-<img src="/assets/tenure-churn.png" width="750">
+<img src="/assets/tenure-churn.png" width="800">
 
 This insight is especially important because it affects not only Month-to-Month contracts, but One-year and Two-year contracts as well. This implies that contracts within their first year are inherently unstable, a possible point of address for SpectraTel.
 
@@ -40,13 +40,13 @@ What is the actual impact of these increases in churn rate though? Using Spectra
 
 The first chart shows the estimated difference in customers lost during the first year versus other years.
 
-<img src="/assets/Customers-churned.png" width="600">
+<img src="/assets/Customers-churned.png" width="800">
 
 As shown, nearly 500 customers are lost over the average during the first year. This is a very high rate that needs to be addressed.
 
 The second chart shows the estimated revenue loss over the first year.
 
-<img src="/assets/Revenue-loss.png" width="400">
+<img src="/assets/Revenue-loss.png" width="250">
 
 This chart quantifies even further the cost of sustaining such a high churn rate in the first year. Revenue losses exceed $3.5 million from lost customers.
 
