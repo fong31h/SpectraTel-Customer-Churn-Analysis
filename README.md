@@ -16,6 +16,7 @@ For my SQL code, click [here](google.com)
 
 SpectraTel's customer data consisted of one table with the following columns:
 ![Data Structure](/assets/data_structure.png)
+<img src="/assets/data_structure.png" width="100">
 
 The most important variables in this analysis were tenure (length of time contracted to SpectraTel), contract type (Month-to-Month, One-year, and Two-year), and churn rate.
 
