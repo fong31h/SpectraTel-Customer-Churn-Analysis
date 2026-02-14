@@ -26,13 +26,13 @@ SpectraTel runs a ~33% churn rate on average. This is an acceptable churn rate t
 
 The first insight that was discovered was the weakness in Month-to-Month contracts as compared to other contract types.
 
-<img src="/assets/Contract-type.png" width="300">
+<img src="/assets/Contract-type.png" width="350">
 
 As shown, Month-to-Month contracts suffer from significantly higher churn rates than other types. ~46% vs ~ 16%. Indeed, One-year and Two-year contracts have extremely low churn rates, meaning that any reduction to Month-to-Month churn rates will have an even greater effect on overall company churn rate.
 
 The second insight that was discovered is the extremely high churn rates of contracts within their first year.
 
-![Tenure Churn](/assets/tenure-churn.png)
+<img src="/assets/tenure-churn.png" width="350">
 
 This insight is especially important because it affects not only Month-to-Month contracts, but One-year and Two-year contracts as well. This implies that contracts within their first year are inherently unstable, a possible point of address for SpectraTel.
 
