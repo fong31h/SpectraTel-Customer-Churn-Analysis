@@ -1,4 +1,4 @@
-# SQL-and-Tableau-Customer-Churn
+# SpectraTel Customer Churn
 
  # Project 1
 
