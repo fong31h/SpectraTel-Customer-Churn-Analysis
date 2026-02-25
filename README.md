@@ -1,7 +1,5 @@
 # SpectraTel Customer Churn
 
- # Project 1
-
 In this project, I investigated customer churn in a telecommunications company using SQLlite server and a Tableau dashboard.
 
 SpectraTel is a mid-level telecommunications company dealing with high levels of customer churn that are hurting its revenue upside. 
