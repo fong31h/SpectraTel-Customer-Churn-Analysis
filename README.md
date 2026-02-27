@@ -6,7 +6,7 @@ SpectraTel is a mid-level telecommunications company dealing with high levels of
 Analyzing customer information data as well as product trends have provided several key insights into the problems facing Vodafone as well as
 possible solutions.
 
-Jump straight to the Tableau dashboard [here](https://public.tableau.com/app/profile/spencer.fong/viz/CustomerChurnDashboard_17709383823040/Dashboard1?publish=yes&showOnboarding=true target="_blank")
+Jump straight to the Tableau dashboard <a href="https://public.tableau.com/app/profile/spencer.fong/viz/CustomerChurnDashboard_17709383823040/Dashboard1?publish=yes&showOnboarding=true" target="_blank">here</a>
 
 For my SQL code, click [here](google.com)
 
