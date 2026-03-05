@@ -1,0 +1,69 @@
+-- Remove first row
+
+delete from telco where CustomerID = 'CustomerID';
+
+-- Create age group column
+
+select *,
+case
+    when age between 18 and 25 then '18-25'
+    when age between 26 and 40 then '26-40'
+    when age between 41 and 64 then '41-64'
+    else '65+' end as 'AgeGroup'
+from telco;
+
+-- Change Churn column to 0s and 1s (for Tableau Dashboard convenience)
+
+select CustomerID, Age, Gender, Tenure, MonthlyCharges, Contract, PaymentMethod, TotalCharges,
+case
+    when churn = 'Yes' then 1
+    when churn = 'No' then 0
+    end as 'Churn'
+from telco;
+
+-- Overall Churn Rate
+
+select cast(count(case when churn = 'Yes' then 1 end) as float) /
+count(*) as ChurnRate
+from telco;
+
+-- Churn Rate by Contract Type
+
+select Contract,
+cast(count(case when churn = 'Yes' then 1 end) as float) /
+count(*) as ChurnRate
+from telco
+group by Contract;
+
+-- Churn Rate by Tenure and Contract Type
+
+select Contract, Tenure,
+cast(count(case when churn = 'Yes' then 1 end) as float) /
+count(*) as ChurnRate
+from telco
+group by Contract, Tenure;
+
+-- Actual vs Expected Customers Churned Year One
+
+with YearOne as (
+select 
+count(case when churn = 'Yes' then 1 end) as Actual,
+count(*)*.33144 as Expected
+from telco
+where tenure < 12)
+
+select 
+Actual, Expected, Actual - Expected as Difference
+from YearOne;
+
+-- Estimated Revenue Loss Year 1
+with YearOne as (
+select avg(TotalCharges) as RevenuePerCust,
+count(case when churn = 'Yes' then 1 end) as Actual,
+count(*)*.33144 as Expected
+from telco
+where tenure < 12)
+
+select
+round(RevenuePerCust*Actual-Expected,2) as EstimatedRevenueLoss
+from YearOne;
