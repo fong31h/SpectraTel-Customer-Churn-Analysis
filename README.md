@@ -40,7 +40,7 @@ The first chart shows the estimated difference in customers lost during the firs
 
 <img src="/assets/Customers-churned.png" width="800">
 
-As shown, nearly 500 customers are lost over the average during the first year. This is a very high rate that needs to be addressed.
+As shown, during the first year nearly 500 customers over the average are lost per month. This is a very high rate that needs to be addressed.
 
 The second chart shows the estimated revenue loss over the first year, separated by contract type.
 
