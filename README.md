@@ -8,7 +8,7 @@ possible solutions.
 
 Jump straight to the Tableau dashboard [here](https://public.tableau.com/app/profile/spencer.fong/viz/CustomerChurnDashboard_17709383823040/Dashboard1?publish=yes&showOnboarding=true) (note: links will not open in new tab).
 
-For my SQL code, click [here](google.com)
+For my SQL code, click [here](https://github.com/fong31h/SpectraTel-Customer-Churn-Analysis/blob/main/SQLCommandsCustomerChurn)
 
 # Data Explanation
 
